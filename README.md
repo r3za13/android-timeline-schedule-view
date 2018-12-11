@@ -5,6 +5,23 @@ Timeline Schedule View Library (A view group like google calendar day view)
 ![alt text](https://github.com/r3za13/Android-Timeline-Schedule-View/blob/master/images/screenshot2.png?raw=true)
 
 ### Adding TimeLineLayout:
+
+Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+Add the dependency
+```
+dependencies {
+	implementation 'com.github.r3za13:Android-Timeline-Schedule-View:-SNAPSHOT'
+}
+```
+
 Adding widget:
 ```
 <com.roundtableapps.timelinedayviewlibrary.TimeLineLayout
