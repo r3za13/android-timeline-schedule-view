@@ -11,15 +11,14 @@
         android:id="@+id/timeLine"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:background="#333"
-        app:dividerColor="#b9af92ff"
-        app:dividerTextColor="#FFF"
+        android:background="#e14279"
         android:clipToPadding="false"
         android:paddingBottom="50dp"
+        app:dividerColor="#55b7ff65"
+        app:dividerTextColor="#FFF"
         app:eachRowHeight="25dp"
         app:minimumPercentage="0.25"
         app:numberOfRows="24"
-
         />
 
 
@@ -29,7 +28,7 @@
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
         android:gravity="center_vertical"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorAccent"
         >
 
         <Button

@@ -10,6 +10,9 @@ import android.widget.Toast
 import com.roundtableapps.timelinedayviewlibrary.EventView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlin.random.Random
+import android.graphics.drawable.GradientDrawable
+
+
 
 /**
  * @author R3ZA13 (Reza Abedini)
@@ -50,7 +53,9 @@ class MainActivity : AppCompatActivity() {
                                 itemsMargin = 1,
                                 layoutResourceId = R.layout.item_event_two,
                                 setupView = { myView ->
-                                    myView.setBackgroundColor(Color.argb(255, Random(System.currentTimeMillis()).nextInt() % 255, Random(System.currentTimeMillis()).nextInt() % 255, Random(System.currentTimeMillis()).nextInt() % 255))
+                                    myView.setBackgroundResource(R.drawable.radius_shape)
+                                    val drawable = myView.background as GradientDrawable
+                                    drawable.setColor(Color.argb(255, Random(System.currentTimeMillis()).nextInt() % 255, Random(System.currentTimeMillis()).nextInt() % 255, Random(System.currentTimeMillis()).nextInt() % 255))
                                     myView.background.alpha = 150
                                     myView.findViewById<TextView>(R.id.tvTitle).text = etTitle.text.toString()
                                 },
