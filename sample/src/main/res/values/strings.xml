@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">TimeLineDayView</string>
-    <string name="add">Add</string>
-    <string name="from">From</string>
-    <string name="to">To</string>
-    <string name="event_title">Event title</string>
-    <string name="time_error">Start time should be smaller than end time.</string>
-</resources>

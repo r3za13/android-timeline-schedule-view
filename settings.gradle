@@ -1,1 +1,1 @@
-include ':sample', ':timelinedayviewlibrary'
+include ':timelinedayviewlibrary'
