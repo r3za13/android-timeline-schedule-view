@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeLineLayout">
+        <attr name="numberOfRows" format="integer"/>
+        <attr name="eachRowHeight" format="dimension"/>
+        <attr name="minimumPercentage" format="float"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="dividerTextColor" format="color"/>
+        <attr name="dividerTitles"/>
+        <attr name="dividerStartOffset" format="dimension"/>
+    </declare-styleable>
+</resources>
