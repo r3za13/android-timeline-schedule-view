@@ -18,7 +18,7 @@ allprojects {
 Add the dependency
 ```
 dependencies {
-	implementation 'com.github.r3za13:Android-Timeline-Schedule-View:-SNAPSHOT'
+	implementation 'com.github.r3za13:android-timeline-schedule-view:0.9'
 }
 ```
 
