@@ -25,8 +25,9 @@ class TimeLineLayout : ScrollView {
         }
     }
 
-    fun addEvent(child: View?) {
+    fun <T : Event>addEvent(child: EventView<T>?) {
         (horizontalScrollView.getChildAt(0) as ViewGroup).addView(child)
     }
+
 
 }
