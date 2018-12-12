@@ -1,3 +1,4 @@
+[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
 # Android-Timeline-Schedule-View
 Timeline Schedule View Library (A view group like google calendar day view)
 
@@ -18,7 +19,7 @@ allprojects {
 Add the dependency
 ```
 dependencies {
-	implementation 'com.github.r3za13:Android-Timeline-Schedule-View:-SNAPSHOT'
+	implementation 'com.github.r3za13:android-timeline-schedule-view:0.9'
 }
 ```
 
