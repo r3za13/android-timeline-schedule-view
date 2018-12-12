@@ -18,7 +18,7 @@ import android.view.View
  * @author R3ZA13 (Reza Abedini)
  * @since 18/11/18
  */
-internal class TimeLineLayoutGroup : ViewGroup {
+ class TimeLineLayoutGroup : ViewGroup {
     var eachHourHeightInDp = 118f
     var minimumHeightEachSellPercentage = .25f
     private var maxChildrenEnd = 0
@@ -56,8 +56,11 @@ internal class TimeLineLayoutGroup : ViewGroup {
                         12 -> {
                             "12 pm"
                         }
+                        in 12 .. 24->{
+                            "${i-12} pm"
+                        }
                         else -> {
-                            "${i - 12} pm"
+                            ""
                         }
                     }
             )
