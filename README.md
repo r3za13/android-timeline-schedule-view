@@ -41,7 +41,7 @@ Adding widget:
 ```
 Add EventView to widget:
 ```
-//MY EVENT IS A SAMPLE OBJECT THAT YOU CAN CREATE AND EXTEND IT FROM 'Event' class
+//MY EVENT IS A SAMPLE CLASS THAT YOU CAN CREATE AND EXTEND IT FROM 'Event' CLASS
 var myEventView = EventView(this,
           MyEvent().apply {
           startTime = fromValue
